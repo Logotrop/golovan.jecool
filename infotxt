@@ -1,0 +1,167 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+    outline-color: blueviolet;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: lime;
+    clear: left;
+    text-align: center;
+    border-style: groove;
+	border-style: solid;
+    border-width: 5px;
+	border-color: black;
+}
+
+#wrapper {
+    margin: auto;
+    background-color: limegreen;
+    width: 1050px;
+}
+nav {
+    float: left;
+    max-width: 285px;
+    margin: 0;
+    padding: 1em;
+    
+}
+html {
+    background-color: deeppink;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid  seagreen;
+    padding: 1em;
+    overflow: hidden;
+	background-color: aqua;
+	
+}
+table, th, td {
+    border: 1px solid black;
+}
+mark {
+    background-color: orange;
+    color: black;
+}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+p.one {
+    border-style: solid;
+    border-color: red;
+}
+
+p.two {
+    border-style: solid;
+    border-color: green;
+}
+
+p.three {
+    border-style: solid;
+    border-color: red green blue yellow;
+}
+p.normal {
+    border: 2px solid red;
+}
+
+p.round1 {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+p.round2 {
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+p.round3 {
+    border: 2px solid red;
+    border-radius: 12px;
+}
+p.marge {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+}
+p {
+    outline-color: blueviolet;
+    text-indent: 50px;
+    font-size:25px;
+}
+
+p.dotted2 {outline-style: dotted;}
+p.dashed2 {outline-style: dashed;}
+p.solid2 {outline-style: solid;}
+p.double2 {outline-style: double;}
+p.groove2 {outline-style: groove;}
+p.ridge2 {outline-style: ridge;}
+p.inset2 {outline-style: inset;}
+p.outset2 {outline-style: outset;}
+
+thead {color: hotpink;}
+tbody {color:hotpink;}
+tfoot {color: palevioletred;}
+h1 {
+    text-align: center;
+    color: deeppink;
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px blue;
+    font-size:40px;
+    
+}
+
+h2 {
+    text-align: left;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-size:35px;
+}
+
+h3 {
+    text-align: right;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: -1.5px;
+    word-spacing: -5px;
+    font-size:30px;
+}
+body {
+    color: blueviolet;
+    font-family: "comic sans MS";
+    
+}
+p.small {
+    line-height: 0.8;
+}
+
+p.big {
+    line-height: 1.8;
+}
+
